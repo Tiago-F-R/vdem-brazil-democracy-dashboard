@@ -43,3 +43,34 @@ FGV EPGE — Escola Brasileira de Economia e Finanças.
 ---
 
 ## Requirements
+streamlit
+pandas
+plotly
+
+Install with:
+```bash
+pip install streamlit pandas plotly
+```
+
+---
+
+## Data
+
+Download `V-Dem-CY-Full+Others-v16.csv` from [v-dem.net](https://v-dem.net/data/the-v-dem-dataset/) 
+and place it in the same directory as `dashboard_vdem.py`.
+
+---
+
+## Run locally
+
+```bash
+streamlit run dashboard_vdem.py
+```
+
+---
+
+## Author
+
+**Tiago Ferreira Rodrigues**  
+B.Sc. Economics — FGV EPGE  
+[linkedin.com/in/tiago-f-rodrigues](https://linkedin.com/in/tiago-f-rodrigues)
